@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml'
 gem 'webpack-rails'
 gem 'devise'
+gem 'faker'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

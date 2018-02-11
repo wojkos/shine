@@ -1,24 +1,8 @@
-# README
+# Start app
+`foreman start`
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Create test date
 
-Things you may want to cover:
+By gem Faker app create 35 000 fake customer to your databse. You can change this number in file db/seeds.rb
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+'bundle exec rails db:seed'
