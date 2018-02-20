@@ -12,6 +12,12 @@ class CustomersController < ApplicationController
 			).offset(PAGE_SIZE * @page).limit(PAGE_SIZE)
 		else
 			@customers = []
+		end
+		respond_to do |format|
+			format.html {}
+			format.json {
+				render json: { customers: @customers }
+			}
 		end  		
   end
 end
